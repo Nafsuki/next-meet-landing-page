@@ -1,0 +1,9 @@
+.footer {
+  width: 90vw;
+  margin: 10rem 0 4rem;
+  text-align: center;
+}
+
+.footer p {
+  margin: .5rem 0;
+}

@@ -1,0 +1,45 @@
+.showcase {
+  /* min-width: 144rem; */
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.imgLeft { 
+  /* border: 3px solid red;  */
+  position: absolute; 
+  left: -4.5rem;
+}
+
+.imgRight { 
+  /* border: 3px solid red;  */
+  position: absolute; 
+  right: -4.5rem;
+}
+
+.main {
+  width: 54rem;
+  height: 30.4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main h1 {
+  font-weight: 900;
+  font-size: 6.4rem;
+}
+
+.main p {
+  color: #87879D;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}

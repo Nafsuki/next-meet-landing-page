@@ -1,0 +1,24 @@
+{
+  "images": [
+    {
+      "id": "1",
+      "alt": "image woman in video call",
+      "src": "/assets/desktop/image-woman-in-videocall.jpg"
+    },
+    {
+      "id": "2",
+      "alt": "image women video chatting",
+      "src": "/assets/desktop/image-women-videochatting.jpg"
+    },
+    {
+      "id": "3",
+      "alt": "image men in meeting",
+      "src": "/assets/desktop/image-men-in-meeting.jpg"
+    },
+    {
+      "id": "4",
+      "alt": "image man texting",
+      "src": "/assets/desktop/image-man-texting.jpg"
+    }
+  ]
+}

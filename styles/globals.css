@@ -1,16 +1,83 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;900&display=swap');
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  font-size: 1.8rem;
+  color: #28283D;
+  line-height: 2.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 4.4rem;
+}
+
+.overline {
+  color: #4D96A9;
+  font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  letter-spacing: .4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+.btn {
+  padding: 2rem 4rem;
+  margin: auto 1rem;
+  background-color: #4D96A9;
+  font-style: 1.6rem;
+  font-weight: 900;
+  color: #fafafa;
+  border: 0;
+  border-radius: 2.9rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s ease-in-out;
+  z-index: 5;
+}
+
+.btn span {
+  color: #8FE3F9;
+  padding-left: .4rem;
+}
+
+.btn:hover {
+  background-color: #71C0D4;
+}
+
+.btn.secondary {
+  background-color: #855FB1;
+}
+
+.btn.secondary span {
+  color: #D9B8FF;
+}
+
+.btn.secondary:hover {
+  background-color: #B18BDD;
 }
