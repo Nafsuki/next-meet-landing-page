@@ -7,7 +7,7 @@ export default function Footer() {
       <p>Copyright &copy; meet 2021</p>
       <p>
         <span>Coded using Next.js by </span>
-        <Link href='https://github.com/Nafsuki'>
+        <Link href='https://github.com/Nafsuki/next-meet-landing-page'>
           <a>Nafsuki</a>
         </Link>
       </p>

@@ -8,7 +8,7 @@ export default function Header() {
       <div className={styles.logo}>
         <Link href="/">
           <a>
-            <Image 
+            <Image
             alt="logo"
             src="/assets/logo.svg" 
             width={119}
