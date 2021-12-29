@@ -1,9 +1,16 @@
 .footer {
   width: 90vw;
-  margin: 10rem 0 4rem;
+  margin: 0 0 4rem;
   text-align: center;
 }
 
 .footer p {
   margin: .5rem 0;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
 }

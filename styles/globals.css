@@ -21,6 +21,7 @@ body {
 }
 
 h1 {
+  font-weight: 900;
   font-size: 6.4rem;
   line-height: 6.4rem;
 }
@@ -59,6 +60,7 @@ hr {
   align-items: center;
   transition: all .3s ease-in-out;
   z-index: 5;
+  width: fit-content;
 }
 
 .btn span {
@@ -80,4 +82,16 @@ hr {
 
 .btn.secondary:hover {
   background-color: #B18BDD;
+}
+
+@media (max-width: 570px) {
+  .btn {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .overline {
+    font-size: 1.4rem;
+  }
 }

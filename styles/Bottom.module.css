@@ -1,4 +1,5 @@
 .bottomContainer {
+  margin: -2.8rem 0 3rem;
   position: relative;
   /* z-index: 10; */
   color: #fafafa;
@@ -9,9 +10,13 @@
   align-items: center;
 }
 
+.bottomContainer p {
+  width: 23%;
+}
+
 .bottom {
-  border: 1px solid blue;
-  width: 100%;
+  /* border: 1px solid blue; */
+  width: 100vw;
   height: 30.8rem;
   position: absolute;
   top: 0;
@@ -22,6 +27,7 @@
   background-image: url('/assets/desktop/image-footer.jpg');
   pointer-events: none;
 }
+
 
 .bottom::after {
   content: '';
@@ -34,4 +40,45 @@
   top: 0;
   z-index: -5;
   pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .bottomContainer {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .bottom {
+    background-image: url('/assets/tablet/image-footer.jpg');
+  }
+
+  .bottomContainer,
+  .bottom,
+  .bottom::after {
+    height: 42.8rem;
+  }
+
+  .bottomContainer h2 {
+    font-size: 4rem;
+    /* border: 1px solid red; */
+    margin: 8rem 0 5rem;
+  }
+
+  .bottomContainer p {
+    width: 63%;
+    /* border: 1px solid red; */
+  }
+  
+}
+
+@media (max-width: 570px)  {
+  .bottom {
+    background-image: url('/assets/mobile/image-footer.jpg');
+  }
+
+  .bottomContainer h2 {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
 }
